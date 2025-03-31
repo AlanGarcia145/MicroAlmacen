@@ -23,7 +23,7 @@ namespace MicroAlmacen.Extensiones
                 options.AddPolicy("AllowSpecificOrigins",
                     builder =>
                     {
-                        builder.WithOrigins("https://moprosoft.gatitomalomiauw.com/")
+                        builder.WithOrigins("https://moprosoft.gatitomalomiauw.com")
                         .AllowAnyHeader()
                         .AllowAnyMethod();
 

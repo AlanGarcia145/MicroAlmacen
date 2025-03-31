@@ -1,0 +1,6 @@
+@MicroAlmacen_HostAddress = http://localhost:5248
+
+GET {{MicroAlmacen_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

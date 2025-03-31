@@ -25,8 +25,7 @@ namespace MicroAlmacen.Extensiones
                     {
                         builder.WithOrigins("https://moprosoft.gatitomalomiauw.com/")
                         .AllowAnyHeader()
-                        .AllowAnyMethod()
-                        .AllowCredentials();
+                        .AllowAnyMethod();
 
                     });
 
